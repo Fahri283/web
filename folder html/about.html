@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang - FAHRI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <nav class="navbar">
+    <h1>FAHRI FRAYUDA</h1>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="services.html">Prestasi</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+  </nav>
+</header>
+
+  <section class="content">
+    <h2>TENTANG SAYA</h2>
+    <p>Halo, saya adalah seorang MAHASISWA yang tertarik di bidang KOMPUTER .</p>
+    <img src="DUTA.jpg" alt="Foto Profil" class="foto">
+    <p>Saya adalah mahasiswa dari politeknik ganesha medan, dan saya sekarang sedang belajar menambah ilmu
+        komputer saya di kampus tercinta saya TERIMA KASIH.</p>
+  </section>
+
+   <script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
+
+  <footer>
+    <p>© 2025 Fahri FRAYUDA.</p>
+  </footer>
+</body>
+</html>
